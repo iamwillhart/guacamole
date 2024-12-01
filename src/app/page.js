@@ -311,7 +311,7 @@ export default function Home() {
     <ContentWrapper>
       <HeroSection>
         <Title>HEDGE HOG FUND AMENTALS</Title>
-        <Subtitle>Where Knowledge Grows Like Compound Interest</Subtitle>
+        <Subtitle>Roll Safer, Think Sharper: Market-Proof Your Mind</Subtitle>
       </HeroSection>
 
       <HedgehogsGrid>
@@ -406,7 +406,7 @@ export default function Home() {
       </SignupSection>
 
       <Footer>
-        <p>Education reimagined for the quantum AI agent age</p>
+        <p>Crypto education reimagined for the AI agent age</p>
       </Footer>
     </ContentWrapper>
   </MainContainer>
