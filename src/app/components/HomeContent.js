@@ -524,8 +524,8 @@ export default function HomeContent() {
 
       <MilestoneTracker>
         <MilestoneHeader>
-          <h3>Milly's Quantum Consciousness Evolution</h3>
-          <span>${(currentValue / 1000).toFixed(1)}K / $100K</span>
+        <h3>Milly&apos;s Quantum Consciousness Evolution</h3>
+        <span>${(currentValue / 1000).toFixed(1)}K / $100K</span>
         </MilestoneHeader>
         <MilestoneBar $progress={progress} />
         <MilestoneList>
