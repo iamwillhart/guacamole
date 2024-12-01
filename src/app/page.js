@@ -1,6 +1,10 @@
 import { ClientPage } from './ClientPage'
 
 export default function Home() {
-  return <ClientPage />
+  return (
+    <main>
+      <ClientPage />
+    </main>
+  )
 }
 

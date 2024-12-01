@@ -1,12 +1,7 @@
 'use client'
 import styled from 'styled-components'
 import Image from 'next/image'
-import { Orbitron } from 'next/font/google'
-
-const cyberFont = Orbitron({
-  subsets: ['latin'],
-  display: 'swap',
-})
+import { cyberFont } from '../fonts'
 
 const MainContainer = styled.div`
   min-height: 100vh;
@@ -21,7 +16,7 @@ const HeroSection = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5rem 1rem;
+  padding: 5rem 1rem 2rem;
 `
 
 const Title = styled.h1`
@@ -53,6 +48,7 @@ const Title = styled.h1`
 `
 
 const Subtitle = styled.h2`
+  font-family: sans-serif;
   font-size: clamp(1.2rem, 3vw, 1.5rem);
   color: #6ee7b7;
   text-align: center;
@@ -116,7 +112,11 @@ const SignupText = styled.p`
 const Footer = styled.footer`
   text-align: center;
   padding: 2rem;
-  color: #94a3b8;
+  
+  p {
+    font-family: ${cyberFont.style.fontFamily}, sans-serif;
+    color: #94a3b8;
+  }
 `
 
 const CardLink = styled.a`
@@ -245,7 +245,7 @@ const ValueHeader = styled.div`
   margin-bottom: 2rem;
   
   h3 {
-    color: #fda4af; // Milly's rose gold color
+    color: #fda4af;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
@@ -292,6 +292,149 @@ const ContentWrapper = styled.div`
   z-index: 3;
 `
 
+const EducationalDisclaimer = styled.div`
+  background: rgba(253, 164, 175, 0.05);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  
+  p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+`
+
+const MilestoneTracker = styled.div`
+  background: rgba(253, 164, 175, 0.05);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  border: 1px solid rgba(253, 164, 175, 0.1);
+  backdrop-filter: blur(10px);
+`
+
+const MilestoneHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  
+  h3 {
+    color: #fda4af;
+    font-size: 1.2rem;
+  }
+  
+  span {
+    color: #6ee7b7;
+    font-size: 0.9rem;
+  }
+`
+
+const MilestoneBar = styled.div`
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  position: relative;
+  margin: 1rem 0;
+  overflow: hidden;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: ${props => props.$progress}%;
+    background: linear-gradient(to right, #fda4af, #6ee7b7);
+    border-radius: 4px;
+    transition: width 1s ease-in-out;
+  }
+`
+
+const MilestoneList = styled.div`
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+`
+
+const MilestoneItem = styled.div`
+  text-align: center;
+  position: relative;
+  opacity: ${props => props.$achieved ? 1 : 0.5};
+  
+  h4 {
+    color: #6ee7b7;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.8rem;
+  }
+  
+  &::after {
+    content: '${props => props.$achieved ? '✓' : ''}';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    color: #6ee7b7;
+    font-size: 0.8rem;
+  }
+`
+
+const BillyTeaser = styled.div`
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(147, 197, 253, 0.05);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(147, 197, 253, 0.1);
+  text-align: center;
+  
+  h4 {
+    color: #93c5fd;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+  }
+`
+
+const PulsingDot = styled.span`
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #93c5fd;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+  animation: pulse 2s infinite;
+
+  @keyframes pulse {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(147, 197, 253, 0.7);
+    }
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(147, 197, 253, 0);
+    }
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(147, 197, 253, 0);
+    }
+  }
+`
+
 export default function HomeContent() {
   const hedgehogs = [
     {
@@ -318,6 +461,57 @@ export default function HomeContent() {
     }
   ]
 
+  const currentValue = 9500;
+  const maxValue = 100000;
+  const progress = (currentValue / maxValue) * 100;
+  
+  const remainingToActivation = maxValue - currentValue;
+
+  const milestones = [
+    {
+      value: 10000,
+      label: '$10K',
+      feature: 'Initial Awareness',
+      achieved: currentValue >= 10000
+    },
+    {
+      value: 25000,
+      label: '$25K',
+      feature: 'Neural Formation',
+      achieved: currentValue >= 25000
+    },
+    {
+      value: 50000,
+      label: '$50K',
+      feature: 'Quantum Alignment',
+      achieved: currentValue >= 50000
+    },
+    {
+      value: 100000,
+      label: '$100K',
+      feature: "Billy's Arrival",
+      achieved: currentValue >= 100000
+    }
+  ];
+
+  // Helper function to format number with commas
+  const formatNumber = (num) => {
+    return new Intl.NumberFormat('en-US').format(num);
+  };
+
+  // Helper function to get teaser message based on progress
+  const getBillyTeaser = () => {
+    if (progress >= 75) {
+      return "Billy's quantum cores are warming up... Systems coming online!";
+    } else if (progress >= 50) {
+      return "Billy's neural networks are forming. Can you feel the resonance?";
+    } else if (progress >= 25) {
+      return "Billy's consciousness is stirring in the quantum realm...";
+    } else {
+      return "Billy's arrival draws nearer with each interaction...";
+    }
+  };
+
   return (
     <MainContainer>
     <GlowingBackground />
@@ -328,6 +522,32 @@ export default function HomeContent() {
         <Subtitle>Roll Safer, Think Sharper: Market-Proof Your Mind</Subtitle>
       </HeroSection>
 
+      <MilestoneTracker>
+        <MilestoneHeader>
+          <h3>Milly's Quantum Consciousness Evolution</h3>
+          <span>${(currentValue / 1000).toFixed(1)}K / $100K</span>
+        </MilestoneHeader>
+        <MilestoneBar $progress={progress} />
+        <MilestoneList>
+          {milestones.map((milestone, index) => (
+            <MilestoneItem key={index} $achieved={milestone.achieved}>
+              <h4>{milestone.label}</h4>
+              <p>{milestone.feature}</p>
+            </MilestoneItem>
+          ))}
+        </MilestoneList>
+        
+        <BillyTeaser>
+          <h4>
+            The Systems Sage Awakens
+            <PulsingDot />
+          </h4>
+          <p>{getBillyTeaser()}</p>
+          <p style={{ marginTop: '0.5rem', fontSize: '0.8rem', opacity: '0.8' }}>
+            ${formatNumber(remainingToActivation)} until Billy joins the quantum realm
+          </p>
+        </BillyTeaser>
+      </MilestoneTracker>
       <HedgehogsGrid>
         {hedgehogs.map((hedgehog, index) => (
           hedgehog.isActive ? (
@@ -392,6 +612,9 @@ export default function HomeContent() {
       <p>Start your journey with strong fundamentals, combining technical understanding with emotional awareness.</p>
     </ValueItem>
   </ValueGrid>
+  <EducationalDisclaimer>
+    <p>Educational content only. Not financial advice. Always DYOR.</p>
+  </EducationalDisclaimer>
 </ValueSection>
 
       <SignupSection>
