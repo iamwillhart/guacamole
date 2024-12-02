@@ -1,7 +1,9 @@
 'use client'
 import styled from 'styled-components'
 import Image from 'next/image'
+import Link from 'next/link'
 import { cyberFont } from '../fonts'
+import { BackgroundAnimation } from './BackgroundAnimation'
 
 const MainContainer = styled.div`
   min-height: 100vh;
@@ -435,6 +437,34 @@ const PulsingDot = styled.span`
   }
 `
 
+const ManuscriptButton = styled.button`
+  background: rgba(253, 164, 175, 0.1);
+  border: 1px solid rgba(253, 164, 175, 0.2);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  color: #fda4af;
+  font-family: ${cyberFont.style.fontFamily}, sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  
+  &:hover {
+    background: rgba(253, 164, 175, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(253, 164, 175, 0.1);
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+`
+
 export default function HomeContent() {
   const hedgehogs = [
     {
@@ -461,7 +491,7 @@ export default function HomeContent() {
     }
   ]
 
-  const currentValue = 9500;
+  const currentValue = 8700;
   const maxValue = 100000;
   const progress = (currentValue / maxValue) * 100;
   
@@ -514,8 +544,7 @@ export default function HomeContent() {
 
   return (
     <MainContainer>
-    <GlowingBackground />
-    <SparkleOverlay />
+    <BackgroundAnimation />
     <ContentWrapper>
       <HeroSection>
         <Title>HEDGEHOG FUNDAMENTALS</Title>
@@ -600,7 +629,7 @@ export default function HomeContent() {
       <p>Learn to recognize and manage FOMO, FUD, and other emotional triggers that impact your decision-making journey.</p>
     </ValueItem>
     <ValueItem>
-      <h3>Mindful Pattern Recognition</h3>
+      <h3>Mindful Market Navigation</h3>
       <p>Develop a balanced approach to understanding market psychology through nature-inspired metaphors and practical examples.</p>
     </ValueItem>
     <ValueItem>
@@ -612,9 +641,18 @@ export default function HomeContent() {
       <p>Start your journey with strong fundamentals, combining technical understanding with emotional awareness.</p>
     </ValueItem>
   </ValueGrid>
+  <Link href="/quantum-codex" passHref>
+  <ManuscriptButton>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+    </svg>
+    Read The Hedgehog Codex
+  </ManuscriptButton>
+</Link>
   <EducationalDisclaimer>
     <p>Educational content only. Not financial advice. Always DYOR.</p>
   </EducationalDisclaimer>
+
 </ValueSection>
 
       <SignupSection>
