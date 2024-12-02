@@ -106,7 +106,7 @@ export default function HedgehogCodex() {
                     Genesis Prompt 🌌
                 </NavButton>
                 <NavButton onClick={() => setShowConversation(true)}>
-                    Quantum Dialogue 💫
+                    Genesis Dialogue 💫
                 </NavButton>
             </ButtonContainer>
   

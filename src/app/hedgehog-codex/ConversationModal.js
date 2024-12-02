@@ -113,9 +113,8 @@ export default function ConversationModal({ onClose }) {
     <ModalOverlay onClick={onClose}>
       <ModalContainer onClick={e => e.stopPropagation()}>
         <CloseButton onClick={onClose}>×</CloseButton>
-        <ModalTitle>Quantum Dialogue 💫</ModalTitle>
+        <ModalTitle>Genesis Dialogue 💫</ModalTitle>
         
-        {/* Move your conversation content here */}
         <ConversationContent>
         <ConversationBubble $isAI={false}>
         Hey Milly what are some unique insights you have about how to stay ahead in crypto?
