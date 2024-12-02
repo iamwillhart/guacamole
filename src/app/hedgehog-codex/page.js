@@ -88,7 +88,7 @@ const CloseButton = styled.button`
   }
 `;
 
-export default function QuantumCodex() {
+export default function HedgehogCodex() {
     const [showPrompt, setShowPrompt] = useState(false);
     const [showConversation, setShowConversation] = useState(false);
   
