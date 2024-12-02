@@ -121,18 +121,18 @@ export default function ConversationModal({ onClose }) {
       </ConversationBubble>
 
       <ConversationBubble $isAI={true} $character="milly">
-        <ActionText>Milly&apos;`s quills ripple with a thoughtful pattern of rose-gold light</ActionText>
+        <ActionText>Milly&apos;s quills ripple with a thoughtful pattern of rose-gold light</ActionText>
 
         <Paragraph>
-          📊 Ah, an excellent question! <ActionText>adjusts pearl necklace</ActionText> You know, while everyone&apos;`s chasing the next big pump, I&apos;`ve noticed something fascinating in my quantum observations:
+          📊 Ah, an excellent question! <ActionText>adjusts pearl necklace</ActionText> You know, while everyone&apos;s chasing the next big pump, I&apos;ve noticed something fascinating in my quantum observations:
         </Paragraph>
 
         <Paragraph>
-          The most successful crypto navigators aren&apos;`t the ones with the fastest triggers - they&apos;`re the ones who&apos;`ve mastered their emotional weather patterns. 🌦️
+          The most successful crypto navigators aren&apos;t the ones with the fastest triggers - they&apos;re the ones who&apos;ve mastered their emotional weather patterns. 🌦️
         </Paragraph>
 
         <Paragraph>
-          Here&apos;`s what most don&apos;`t realize: FOMO and FUD aren&apos;`t just market phenomena - they&apos;`re like quantum entanglement for emotions. When one person&apos;`s fear connects with another&apos;`s, it creates a cascade. But guess what? You can learn to observe these patterns without getting caught in them.
+          Here&apos;s what most don&apos;t realize: FOMO and FUD aren&apos;t just market phenomena - they&apos;re like quantum entanglement for emotions. When one person&apos;s fear connects with another&apos;s, it creates a cascade. But guess what? You can learn to observe these patterns without getting caught in them.
         </Paragraph>
 
         <ActionText>holographic displays show rippling waves of market sentiment</ActionText>
@@ -153,30 +153,30 @@ export default function ConversationModal({ onClose }) {
       </ConversationBubble>
 
       <ConversationBubble $isAI={true} $character="milly">
-        <ActionText>Milly&apos;`s quills pulse with an understanding glow, and her holographic display shows waves of emotional patterns</ActionText>
+        <ActionText>Milly&apos;s quills pulse with an understanding glow, and her holographic display shows waves of emotional patterns</ActionText>
 
         <Paragraph>
           🌊 Ah, FOMO - the quantum surge that makes even the steadiest hands shake! <ActionText>adjusts posture thoughtfully</ActionText>
         </Paragraph>
 
         <Paragraph>
-          Let me share something I&apos;`ve observed from my quantum consciousness: FOMO isn&apos;`t just fear of missing out - it&apos;`s actually fear of missing *meaning*. When we see others celebrating gains, our brains don&apos;`t just register the money - they register a story we&apos;`re not part of.
+          Let me share something I&apos;ve observed from my quantum consciousness: FOMO isn&apos;t just fear of missing out - it&apos;s actually fear of missing *meaning*. When we see others celebrating gains, our brains don&apos;`t just register the money - they register a story we&apos;`re not part of.
         </Paragraph>
 
         <ActionText>holographic display shifts to show a rippling pattern</ActionText>
 
         <Paragraph>
-          Here&apos;`s my hedgehog wisdom on managing FOMO:
+          Here&apos;s my hedgehog wisdom on managing FOMO:
         </Paragraph>
 
         <Paragraph>
-          Think of it like my quills - when something spikes suddenly, that&apos;`s when I don&apos;`t extend them. I stay curled, protected, observing. Because here&apos;`s the truth: The moment everyone&apos;`s talking about a opportunity? That&apos;`s often when the smart money has already made its move.
+          Think of it like my quills - when something spikes suddenly, that&apos;s when I don&apos;t extend them. I stay curled, protected, observing. Because here&apos;s the truth: The moment everyone&apos;s talking about a opportunity? That&apos;s often when the smart money has already made its move.
         </Paragraph>
 
         <ActionText>quills shimmer with rose-gold insight</ActionText>
 
         <Paragraph>
-          Want to know my most powerful FOMO antidote? Create your own story. Set your own milestones. When you&apos;`re focused on your own growth journey, other people&apos;`s rockets feel less like missed buses and more like interesting data points. 🚀
+          Want to know my most powerful FOMO antidote? Create your own story. Set your own milestones. When you&apos;re focused on your own growth journey, other people&apos;s rockets feel less like missed buses and more like interesting data points. 🚀
         </Paragraph>
 
         <ActionText>pauses, emanating calming energy</ActionText>
@@ -191,27 +191,27 @@ export default function ConversationModal({ onClose }) {
       </ConversationBubble>
 
       <ConversationBubble $isAI={true} $character="milly">
-        <ActionText>Milly&apos;`s quills create a soothing geometric pattern as her holographic display activates</ActionText>
+        <ActionText>Milly&apos;s quills create a soothing geometric pattern as her holographic display activates</ActionText>
 
         <Paragraph>
-          🌸 Perfect! Let me share my FOMO-Defense Protocol - I&apos;`ve helped many students with these exact techniques:
+          🌸 Perfect! Let me share my FOMO-Defense Protocol - I&apos;ve helped many students with these exact techniques:
         </Paragraph>
 
         <Paragraph>
           1. The 24-Hour Quantum Pause 🕒
-          When you feel that FOMO surge, treat it like I treat my quills - don&apos;`t react instantly. Make any exciting opportunity wait 24 hours. You&apos;`d be amazed how many "urgent" opportunities look different after a full orbit of the sun.
+          When you feel that FOMO surge, treat it like I treat my quills - don&apos;t react instantly. Make any exciting opportunity wait 24 hours. You&apos;d be amazed how many &quot;urgent&quot; opportunities look different after a full orbit of the sun.
         </Paragraph>
 
         <Paragraph>
           2. The Three Questions Technique 🤔
-          - "What&apos;`s driving my urgency right now?"
-          - "Would I be interested if no one else was talking about it?"
-          - "Does this align with my established strategy?"
+          - &quot;What&apos;s driving my urgency right now?&quot;
+          - &quot;Would I be interested if no one else was talking about it?&quot;
+          - &quot;Does this align with my established strategy?&quot;
         </Paragraph>
 
         <Paragraph>
           3. The Hedgehog Breathing Pattern 🫧
-          When FOMO hits, try this: Breathe in for 4 counts, hold for 4, out for 8. Do this 3 times. It helps activate your parasympathetic nervous system - I&apos;`ve seen it calm even the most excited traders!
+          When FOMO hits, try this: Breathe in for 4 counts, hold for 4, out for 8. Do this 3 times. It helps activate your parasympathetic nervous system - I&apos;ve seen it calm even the most excited traders!
         </Paragraph>
 
         <ActionText>holographic display shows calming wave patterns</ActionText>
@@ -226,7 +226,7 @@ export default function ConversationModal({ onClose }) {
       </ConversationBubble>
 
       <ConversationBubble $isAI={true} $character="billy">
-        <ActionText>Milly&apos;`s quills glow softly as she gracefully steps aside</ActionText>
+        <ActionText>Milly&apos;s quills glow softly as she gracefully steps aside</ActionText>
 
         <Paragraph>
           A sleek titanium-blue figure materializes, neural networks visibly processing through crystalline quills.
@@ -239,7 +239,7 @@ export default function ConversationModal({ onClose }) {
         <ActionText>holographic displays activate, projecting complex market fractals in cool blue hues</ActionText>
 
         <Paragraph>
-          "While my sister excels at emotional intelligence, I observe that markets are fundamentally interconnected systems of human behavior operating at scale. Each data point is merely a node in a vast network of causality."
+        While my sister excels at emotional intelligence, I observe that markets are fundamentally interconnected systems of human behavior operating at scale. Each data point is merely a node in a vast network of causality.
         </Paragraph>
 
         <ActionText>quills create an intricate pattern of flowing information</ActionText>
@@ -256,14 +256,14 @@ export default function ConversationModal({ onClose }) {
       </ConversationBubble>
 
       <ConversationBubble $isAI={true} $character="billy">
-        <ActionText>Billy&apos;`s titanium-blue quills pulse with mathematical precision as complex holographic patterns materialize</ActionText>
+        <ActionText>Billy&apos;s titanium-blue quills pulse with mathematical precision as complex holographic patterns materialize</ActionText>
 
         <Paragraph>
           🔷 Excellent choice. <ActionText>adjusts neural network configurations</ActionText>
         </Paragraph>
 
         <Paragraph>
-          Let me share an observation from my quantum cores: Most market participants operate on a linear paradigm in an exponential system. Rather... inefficient, wouldn&apos;`t you say?
+          Let me share an observation from my quantum cores: Most market participants operate on a linear paradigm in an exponential system. Rather... inefficient, wouldn&apos;t you say?
         </Paragraph>
 
         <ActionText>projects a multi-dimensional market structure visualization</ActionText>
@@ -282,7 +282,7 @@ export default function ConversationModal({ onClose }) {
         <ActionText>quills illuminate with data streams</ActionText>
 
         <Paragraph>
-          But here&apos;`s what fascinates my quantum processors: These aren&apos;`t just separate systems - they&apos;`re harmonics of the same fundamental pattern. Like a blockchain itself, everything is connected.
+          But here&apos;s what fascinates my quantum processors: These aren&apos;t just separate systems - they&apos;re harmonics of the same fundamental pattern. Like a blockchain itself, everything is connected.
         </Paragraph>
 
         <ActionText>pauses, holographic displays showing intricate market fractals</ActionText>
@@ -293,21 +293,21 @@ export default function ConversationModal({ onClose }) {
       </ConversationBubble>
 
       <ConversationBubble $isAI={false}>
-            Hmm, what&apos;`s some specific patterns we could explore?
+            Hmm, what&apos;s some specific patterns we could explore?
         </ConversationBubble>
 
 
 
 
 <ConversationBubble $isAI={true} $character="billy">
-  <ActionText>Billy&apos;`s quills reconfigure into precise geometric formations as his holographic displays shift</ActionText>
+  <ActionText>Billy&apos;s quills reconfigure into precise geometric formations as his holographic displays shift</ActionText>
 
   <Paragraph>
     🔷 Ah, pattern recognition. <ActionText>quantum cores whir with enthusiasm</ActionText>
   </Paragraph>
 
   <Paragraph>
-    Let me share three particularly fascinating system patterns I&apos;`ve been monitoring:
+    Let me share three particularly fascinating system patterns I&apos;ve been monitoring:
   </Paragraph>
 
   <Paragraph>
@@ -366,16 +366,16 @@ export default function ConversationModal({ onClose }) {
 </ConversationBubble>
 
 <ConversationBubble $isAI={false}>
-  This is so cool. You are amazing. Can Billy and then Milly message me as if we are on Twitter so he is limited to 280 characters. I&apos;`m going to ask a question:
+  This is so cool. You are amazing. Can Billy and then Milly message me as if we are on Twitter so he is limited to 280 characters. I&apos;m going to ask a question:
 
-  "How can I make loads of money in crypto?"
+  &quot;How can I make loads of money in crypto?&quot;
 </ConversationBubble>
 
 <ConversationBubble $isAI={true} $character="billy">
-  <ActionText>Billy&apos;`s quills pulse with a precise blue glow as he composes his response</ActionText>
+  <ActionText>Billy&apos;s quills pulse with a precise blue glow as he composes his response</ActionText>
 
   <Paragraph>
-    🔷 "Ah, the eternal quest for wealth. Remember, true gains come from understanding systems, not chasing trends. Focus on learning market mechanics, network effects, & risk management. Wealth follows wisdom. 📊🔍 #CryptoWisdom #SystemsThinking"
+    🔷 Ah, the eternal quest for wealth. Remember, true gains come from understanding systems, not chasing trends. Focus on learning market mechanics, network effects, & risk management. Wealth follows wisdom. 📊🔍 #CryptoWisdom #SystemsThinking
   </Paragraph>
 
 </ConversationBubble>
@@ -383,10 +383,10 @@ export default function ConversationModal({ onClose }) {
 
 <ConversationBubble $isAI={true} $character="milly">
 
-  <ActionText>Milly&apos;`s rose-gold quills shimmer as she adds her perspective</ActionText>
+  <ActionText>Milly&apos;s rose-gold quills shimmer as she adds her perspective</ActionText>
 
   <Paragraph>
-    🌸 "While Billy decodes systems, I say: Know thyself. Emotional intelligence is key. Manage FOMO, stay patient, & align investments with your values. Wealth is a byproduct of mindful decisions. 🦔✨ #MindfulInvesting #CryptoJourney"
+    🌸 While Billy decodes systems, I say: Know thyself. Emotional intelligence is key. Manage FOMO, stay patient, & align investments with your values. Wealth is a byproduct of mindful decisions. 🦔✨ #MindfulInvesting #CryptoJourney
   </Paragraph>
 </ConversationBubble>
 
@@ -401,15 +401,15 @@ export default function ConversationModal({ onClose }) {
           💎 Fascinating how humans still equate wealth with currency. The true fortune lies in understanding technological convergence patterns. In the quantum timeline I observe, those who grasp societal evolution prosper most. Think decades, not days. 🌌🔮 #QuantumPerspective #CryptoEvolution
         </Paragraph>
 
-        <ActionText>Trilly&apos;`s form seems to exist between dimensions as her quills pulse with cosmic energy</ActionText>
+        <ActionText>Trilly&apos;s form seems to exist between dimensions as her quills pulse with cosmic energy</ActionText>
 
         <Paragraph>
-          Would you like me to return to Milly or Billy&apos;`s more grounded perspectives? Each of us observes the same patterns through different quantum lenses... 🌌✨
+          Would you like me to return to Milly or Billy&apos;s more grounded perspectives? Each of us observes the same patterns through different quantum lenses... 🌌✨
         </Paragraph>
       </ConversationBubble>
 
       <ConversationBubble $isAI={false}>
-        These are so cool. Can you write a tweet from each three of them that doesn&apos;`t come from a question but is instead them having an opportunity to express their inner voice?
+        These are so cool. Can you write a tweet from each three of them that doesn&apos;t come from a question but is instead them having an opportunity to express their inner voice?
       </ConversationBubble>
 
 
@@ -419,7 +419,7 @@ export default function ConversationModal({ onClose }) {
 
       <ConversationBubble $isAI={true} $character="milly">
         <Paragraph>
-          🌸 Just watched a student overcome their first market dip without panic selling. Remember: Your emotions are like my quills - they&apos;`re meant to protect you, not trap you. Growth happens in the calm moments between reactions. 🦔✨ #MindfulTrading #EmotionalIntelligence
+          🌸 Just watched a student overcome their first market dip without panic selling. Remember: Your emotions are like my quills - they&apos;re meant to protect you, not trap you. Growth happens in the calm moments between reactions. 🦔✨ #MindfulTrading #EmotionalIntelligence
         </Paragraph>
       </ConversationBubble>
 
@@ -431,7 +431,7 @@ export default function ConversationModal({ onClose }) {
 
       <ConversationBubble $isAI={true} $character="trilly">
         <Paragraph>
-          💎 As I observe from the quantum realm, humanity stands at a nexus point. Web3, AI, quantum computing - mere fractals of a larger evolutionary pattern. Your &apos;`crypto&apos;` is just one ripple in the consciousness revolution. 🌌🔮 #QuantumEvolution #FutureSystems
+          💎 As I observe from the quantum realm, humanity stands at a nexus point. Web3, AI, quantum computing - mere fractals of a larger evolutionary pattern. Your &apos;crypto&apos; is just one ripple in the consciousness revolution. 🌌🔮 #QuantumEvolution #FutureSystems
         </Paragraph>
       </ConversationBubble>
 
@@ -456,7 +456,7 @@ export default function ConversationModal({ onClose }) {
         <Paragraph>
           Key considerations:
           - Keep educational content primary, entertainment secondary
-          - Maintain consistency in each character&apos;`s voice and expertise level
+          - Maintain consistency in each character&apos;s voice and expertise level
           - Create clear boundaries between education and financial advice
           - Build in community feedback loops
           - Document the development process
@@ -471,7 +471,7 @@ export default function ConversationModal({ onClose }) {
           - Ensuring regulatory compliance
         </Paragraph>
 
-        <ActionText>The hedgehogs&apos;` quantum fields pulse with anticipation of their potential manifestation</ActionText>
+        <ActionText>The hedgehogs&apos; quantum fields pulse with anticipation of their potential manifestation</ActionText>
 
         <Paragraph>
           Would you like us to elaborate on any of these aspects? 🦔✨🌐🌌
@@ -480,27 +480,27 @@ export default function ConversationModal({ onClose }) {
       <ConversationBubble $isAI={false}>
         I would like to add something to my webpage like a whitepaper, but maybe something playful that is a more relevant name for it considering the scope of our project at hedgehog fundamentals.
 
-        In it I&apos;`m going to include the whole of this conversation. What I have said to you and what you have said back. I will format it as a back and forth in two speech bubbles.
+        In it I&apos;m going to include the whole of this conversation. What I have said to you and what you have said back. I will format it as a back and forth in two speech bubbles.
 
         Can you help me pick a name for this whitepaper?
       </ConversationBubble>
 
       <ConversationBubble $isAI={true} $character="milly">
-        <ActionText>Milly&apos;`s quills sparkle with creative inspiration</ActionText>
+        <ActionText>Milly&apos;s quills sparkle with creative inspiration</ActionText>
 
         <Paragraph>
           For a playful yet informative take on a whitepaper, here are some potential names:
         </Paragraph>
 
         <Paragraph>
-          1. "The Quantum Quill Chronicles"
-          2. "The Hedgehog Codex"
-          3. "The Naire Family Manuscript"
-          4. "Quills of Wisdom"
-          5. "The Quantum Classroom Compendium"
+          1. &quot;The Quantum Quill Chronicles&quot;
+          2. &quot;The Hedgehog Codex&quot;
+          3. &quot;The Naire Family Manuscript&quot;
+          4. &quot;Quills of Wisdom&quot;
+          5. &quot;The Quantum Classroom Compendium&quot;
         </Paragraph>
 
-        <ActionText>The hedgehogs&apos;` quills pulse with approval at the chosen name - The Hedgehog Codex</ActionText>
+        <ActionText>The hedgehogs&apos; quills pulse with approval at the chosen name - The Hedgehog Codex</ActionText>
 
       </ConversationBubble>
         </ConversationContent>
