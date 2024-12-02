@@ -97,7 +97,7 @@ export default function HedgehogCodex() {
             <BackgroundAnimation />
             <CloseButton onClick={() => window.location.href = '/'}>×</CloseButton>
             <CodexHeader>
-                <CodexTitle>The Hedgehog Codex</CodexTitle>
+                <CodexTitle>The Naire Codex</CodexTitle>
                 <CodexSubtitle>A Quantum Journey Through Market Wisdom</CodexSubtitle>
             </CodexHeader>
   
