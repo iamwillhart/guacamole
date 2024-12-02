@@ -548,7 +548,7 @@ export default function HomeContent() {
     <ContentWrapper>
       <HeroSection>
         <Title>HEDGEHOG FUNDAMENTALS</Title>
-        <Subtitle>Roll Safer, Think Sharper: Market-Proof Your Mind</Subtitle>
+        <Subtitle>Sharp Quills, Steady Compass - Navigate Complexity</Subtitle>
       </HeroSection>
 
       <MilestoneTracker>
@@ -625,7 +625,7 @@ export default function HomeContent() {
   </ValueHeader>
   <ValueGrid>
     <ValueItem>
-      <h3>Emotional Intelligence Training</h3>
+      <h3>Emotional Regulation Training</h3>
       <p>Learn to recognize and manage FOMO, FUD, and other emotional triggers that impact your decision-making journey.</p>
     </ValueItem>
     <ValueItem>
