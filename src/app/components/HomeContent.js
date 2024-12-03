@@ -491,7 +491,7 @@ export default function HomeContent() {
     }
   ]
 
-  const currentValue = 8700;
+  const currentValue = 10300;
   const maxValue = 100000;
   const progress = (currentValue / maxValue) * 100;
   
