@@ -1,5 +1,4 @@
 import "./globals.css";
-import CookieConsentBanner from './components/CookieConsent'
 import GoogleAnalytics from './components/GoogleAnalytics'
 
 export const metadata = {
@@ -17,7 +16,6 @@ export default function RootLayout({ children }) {
       <body>
         <GoogleAnalytics GA_MEASUREMENT_ID="G-Z7GNF0YK8Y" />
         {children}
-        <CookieConsentBanner />
       </body>
     </html>
   )
